@@ -1,0 +1,9 @@
+.Day {
+    text-align: center;
+}
+
+.Clock {
+    text-align: center;
+    font-size: 4rem;
+    height: 100vh;
+}
