@@ -1,0 +1,13 @@
+body {
+    margin-top: 50vh;
+    text-align: center;
+
+}
+
+button {
+    height: 75px;
+    width: 75px;
+    border-radius: 5%;
+    border-style: none;
+    background-Color: aqua;
+}
