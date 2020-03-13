@@ -5,5 +5,7 @@
 |  #.Day Number   - M= Morning || N=Night   |
 
 1.- M / N Completed
+
 2.- M / N Completed
+
 3.- Whole Day Project
