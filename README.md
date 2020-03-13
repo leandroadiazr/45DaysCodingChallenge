@@ -4,7 +4,7 @@
 
 |  #.Day Number   - M= Morning || N=Night   |
 
-1.- M / N Completed
+<a href='#'>1.- M / N Completed</a>
 
 2.- M / N Completed
 
