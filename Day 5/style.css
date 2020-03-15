@@ -32,36 +32,35 @@ h1 {
     border: 18px dashed white;
     align-items: center;
     justify-content: center;
-
+    box-shadow: 0px 0px 5px 24px rgba(214, 214, 214, 0.63), inset 0px 0px 5px 12px rgba(214, 207, 214, 0.26);
 }
 
 .clock_face .center {
     align-self: center;
-    width: 20px;
-    height: 20px;
-    top: 50%;
-    left: 48%;
+    width: 55px;
+    height: 55px;
+    top: 45%;
+    left: 43%;
     position: absolute;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.445);
     border-radius: 50px;
 
 }
 
 .hand {
-    width: 50%;
+    width: 47%;
     height: 10px;
     /* border: 3px solid whitesmoke; */
     position: absolute;
-    top: 50%;
-    left: 0%;
+    top: 49.5%;
+    left: 3.1%;
     right: 0;
     bottom: 0;
     transform-origin: 100%;
     transform: rotate(90deg);
     transition: all 0.05s;
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
-    transform: translateX(100px);
-    transform: translateY(100px);
+
 
 }
 
