@@ -1,0 +1,45 @@
+body {
+	text-align: center;
+	background: #193549;
+	color: white;
+	font-family: "helvetica neue", sans-serif;
+	font-weight: 100;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.controls {
+	margin-top: 50px;
+	border: 1px solid tomato;
+	background: var(--base);
+
+	width: fit-content;
+}
+
+input {
+	width: 100px;
+}
+
+.title {
+	margin-top: -30px;
+}
+/* //this is the higer level is like going to the window object */
+:root {
+	--base: steelblue;
+	--spacing: 20px;
+	--blur: 10px;
+}
+
+img {
+	width: 500px;
+	height: 500px;
+	padding: var(--spacing);
+	background: var(--base);
+	filter: blur(var(--blur));
+}
+.hl {
+	color: var(--base);
+}

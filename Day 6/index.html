@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS and JS</title>
+</head>
+
+<body>
+    <div class="title">
+        <h2>Using <span class='hl'>CSS</span> Variables and Updating with <span class='hl'>JS</span></h2>
+
+    </div>
+
+    <!-- image -->
+    <div class="image">
+
+        <img src="./IMG_4873.jpg">
+    </div>
+
+    <div class="controls">
+        <!-- spacing control -->
+        <label for="spacing">Spacing:</label>
+        <input id="spacing" type="range" name="spacing" min="-50" max="67" value="0" data-sizing="px">
+
+        <!-- blur control -->
+        <label for="blur">Blur:</label>
+        <input id="blur" type="range" name="blur" min="-50" max="200" value="5" data-sizing="px">
+
+        <!-- color control -->
+        <label for="base">Base Color</label>
+        <input id="base" type="color" name="base" value="#386ea5">
+
+
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
