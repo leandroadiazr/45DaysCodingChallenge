@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(39, 46, 46);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 70vh;
+    border-radius: 5px;
+    border-style: groove;
+}
+
+.box {
+    width: 90px;
+    height: 90px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+h1 {
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
