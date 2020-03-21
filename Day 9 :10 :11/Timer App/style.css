@@ -1,8 +1,9 @@
 body {
     background-color: rgb(41, 46, 51);
+    display: flex;
 }
 
-h4 {
+h1 {
     color: snow;
 }
 
@@ -10,35 +11,44 @@ h4 {
     border: thin solid slategrey;
     height: 600px;
     display: flex;
+    min-width: 700px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     height: 100vh;
-
 }
 
 
 .appBorder {
     border: 5px solid snow;
     border-radius: 50%;
-    height: 60%;
-    width: 50%;
-    position: relative;
+    height: 90%;
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputField {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
 }
 
 input {
-    position: absolute;
-    width: 55px;
-    left: 44%;
-    top: 15%;
-    /* border: 1px solid red; */
+    width: 75px;
     border-radius: 5px;
+    text-align: center;
 }
 
+
 .label {
-    position: absolute;
-    left: 40%;
-    top: 22%;
+    margin-top: 15px;
+    margin-bottom: 0;
     color: rgb(80, 79, 79);
     text-align: center;
     border-bottom: thin solid gray;
@@ -46,14 +56,41 @@ input {
 
 
 
+.display {
+    position: relative;
+    top: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#timer {
+    font-size: large;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    border: thin solid rgb(78, 77, 77);
+    width: 95px;
+    height: 55px;
+    color: white;
+}
+
 .buttons {
     position: absolute;
-    left: 33.33%;
+    display: flex;
     top: 85%;
-    /* border: 1px solid red; */
+    align-items: flex-end;
+    justify-content: center;
     border-radius: 5px;
     width: 185px;
     text-align: center;
+}
+
+button:hover {
+    background-color: dimgray;
+
+    transition: ease-in-out 0.55s;
 }
 
 .start,
@@ -63,36 +100,4 @@ input {
     background-color: transparent;
     color: white;
     border-radius: 5px;
-}
-
-.display {
-    position: absolute;
-    /* border-radius: 50%; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    top: 30%;
-    left: 0%;
-}
-
-#timer {
-    position: absolute;
-    top: 33.33%;
-    font-size: large;
-    font-weight: bolder;
-    font-size: 30px;
-    text-align: center;
-    border: thin solid rgb(78, 77, 77);
-    width: 95px;
-    height: 45px;
-    color: white;
-
-
-}
-
-
-
-.initialTime {
-    text-align: center;
 }

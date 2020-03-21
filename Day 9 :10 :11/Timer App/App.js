@@ -33,6 +33,7 @@ const timer = new Timer(initialTime, start, stop, reset, {
 	onCompleted() {
 		console.log("completed");
 		timeRemaining = 0;
+
 	}
 });
 
