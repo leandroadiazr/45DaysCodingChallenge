@@ -37,6 +37,12 @@ class Timer {
 	//4.0- Reset Method
 	reset = () => {
 		console.log("Reset");
+		clearInterval(this.timeVal);
+		this.timeRemaining = 30;
+		display.textContent = '';
+
+
+
 	};
 
 	//5.0-Start countdown
